@@ -1,4 +1,4 @@
-# Calculator
+# Android Calculator
 
 A simple, modern Android calculator app built with Java and Material Design principles.
 
@@ -12,7 +12,10 @@ A simple, modern Android calculator app built with Java and Material Design prin
 - Custom color palette and rounded buttons
 
 ## Screenshots
-<!-- Add screenshots of the app here -->
+<img width="220" height="1456" alt="Screenshot 2025-07-15 at 12 43 31_PM" src="https://github.com/user-attachments/assets/5fc6d680-afe8-4456-bc22-9e07d40047d2" />
+<img width="220" height="1456" alt="Screenshot 2025-07-15 at 12 56 25_PM" src="https://github.com/user-attachments/assets/6ede72a7-0922-4947-8ccc-36871acfab3e" />
+
+
 
 ## Getting Started
 
@@ -23,27 +26,15 @@ A simple, modern Android calculator app built with Java and Material Design prin
 
 ### Setup
 1. Clone this repository:
-   ```sh
-   git clone <repo-url>
-   ```
+```sh
+git clone https://github.com/meenakship3/android-calculator-app
+```
+
 2. Open the project in Android Studio.
 3. Let Gradle sync and download dependencies.
 
 ### Build & Run
 - Connect an Android device or start an emulator.
-- Click **Run** in Android Studio or use:
-  ```sh
-  ./gradlew installDebug
-  ```
-
-### Testing
-- Unit tests: `app/src/test/java/com/example/calculator/ExampleUnitTest.java`
-- Instrumented tests: `app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.java`
-- To run all tests:
-  ```sh
-  ./gradlew test
-  ./gradlew connectedAndroidTest
-  ```
 
 ## Project Structure
 - `app/src/main/java/com/example/calculator/` — Main Java source code
@@ -52,7 +43,7 @@ A simple, modern Android calculator app built with Java and Material Design prin
 - `app/src/main/res/drawable/` — Icons and button backgrounds
 
 ## UI Design
-- Material3 DayNight theme
+- MaterialUI components
 - Custom colors: dark green, light green, beige
 - Large, rounded buttons for easy input
 - Dual display for input and result
@@ -62,10 +53,3 @@ A simple, modern Android calculator app built with Java and Material Design prin
 - Tap `=` to evaluate
 - Tap `AC` to backspace, long-press `AC` to clear all
 - Division by zero shows a toast error
-
-## License
-This project is for educational purposes. Add a license if you plan to distribute.
-
-## Credits
-- Developed by [Your Name]
-- Inspired by standard calculator apps 
